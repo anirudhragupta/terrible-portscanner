@@ -1,2 +1,2 @@
 # terrible-portscanner
-A basic port scanner in python
+A basic port scanner in python which is 
