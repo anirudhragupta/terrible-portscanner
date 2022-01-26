@@ -20,7 +20,7 @@ print("-"*50)
 try:
 	for port in range(1,500):
 		s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #defining a socket variable
-		socket.setdefaulttimeout(1)	#default timeout set to 1 sec
+		s.settimeout(1)	#default timeout set to 1 sec or socket.setdefaulttimeout(1)
 		result = s.connect_ex((target, port)) #returns 1 if error occurs, unless 0
 #		print("checking port {}".format(port))
 		if result == 0:
