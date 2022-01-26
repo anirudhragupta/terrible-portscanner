@@ -1,4 +1,4 @@
 # A Terrible Portscanner
 A basic port scanner written in python which is not very optimized.
 
-Syntax: ./pscan.py "ip_address or host"
+Example syntax: ./pscan.py 192.168.1.5
